@@ -186,8 +186,15 @@
         }
         .btn-contact:hover { transform: translate(-3px, -3px); box-shadow: 9px 9px 0px var(--vb-soft-pink); }
         .btn-contact:active { transform: translate(3px, 3px); box-shadow: 3px 3px 0px var(--vb-soft-pink); }
-
-        footer { text-align:center; padding: 80px; background: var(--vb-white); }
+        footer { 
+            text-align: center; 
+            padding: 60px 5%; 
+            background: var(--vb-white); 
+            border-top: 4px solid var(--vb-black);
+            line-height: 1.8;
+        }
+        .footer-info { font-size: 0.9rem; color: #333; margin-top: 20px; }
+        .footer-title { font-weight: 900; font-size: 1.1rem; margin-bottom: 10px; display: block; }
     </style>
     <script type="application/ld+json">
     {
@@ -285,8 +292,13 @@
     </section>
 
     <footer>
-        <p style="font-weight: bold;">© 2026 Verybell Studio. All rights reserved.</p>
-        <p style="font-size: 0.9rem; color: #888;">서울시 마포구 성산동 | heeroroll@gmail.com</p>
+        <span class="footer-title">베리벨 스튜디오 | 성평등·인권 전문 영상 제작사</span>
+        <p style="font-weight: bold; margin: 0;">© 2026 Verybell Studio. All rights reserved.</p>
+        
+        <div class="footer-info">
+            대표자: 정다희 | 사업자등록번호: 411-18-92461<br>
+            소재지: 서울특별시 마포구 성산동 81-60 | 이메일: heeroroll@gmail.com<br>
+        </div>
     </footer>
 </body>
 </html>
